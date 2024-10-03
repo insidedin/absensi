@@ -11,7 +11,7 @@
         </div>
         <div class="form-group">
             <label for="status">Status</label>
-            <select class="form-select" name="status" id="status">
+            <select class="form-select" name="status" id="status" >
                 <option value="Tetap">Tetap</option>
                 <option value="Kontrak">Kontrak</option>
             </select>

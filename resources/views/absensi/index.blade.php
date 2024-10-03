@@ -42,8 +42,8 @@
     </table>
 
         <!-- Tambahkan pagination links di bawah tabel -->
-    <div class="d-flex justify-content-center">
-        {{ $absensi->links() }}
+    <div class="d-flex justify-content">
+        {{ $absensi->links('pagination::bootstrap-4') }}
     </div>
 </div>
 @endsection
