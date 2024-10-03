@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title')</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>
@@ -22,15 +23,15 @@
                         <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('absensi.index') }}">Data Karyawan</a>
+                        <a class="nav-link" href="#tutor-absensi">Tutorial</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             More
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="{{ route('absensi.index') }}">Data Karyawan</a></li>
                             <li><a class="dropdown-item" href="#">Absensi</a></li>
-                            <li><a class="dropdown-item" href="#">Login</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -45,7 +46,7 @@
 
     <!-- Footer -->
     <footer class="bg-light text-center py-3 mt-4">
-        <p>&copy; 2024 Belajar Laravel</p>
+        <p>&copy; 2024 Belajar Laravel - Digital Absensi</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

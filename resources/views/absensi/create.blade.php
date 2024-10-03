@@ -7,15 +7,18 @@
         @csrf
         <div class="form-group">
             <label for="nama_jabatan">Nama Jabatan</label>
-            <input type="text" class="form-control" name="nama_jabatan" required>
+            <input type="text" class="form-control" name="nama_jabatan" placeholder="masukan nama jabatan">
         </div>
         <div class="form-group">
             <label for="status">Status</label>
-            <input type="text" class="form-control" name="status" required>
+            <select class="form-select" name="status" id="status">
+                <option value="Tetap">Tetap</option>
+                <option value="Kontrak">Kontrak</option>
+            </select>
         </div>
         <div class="form-group">
             <label for="gaji">Gaji</label>
-            <input type="number" class="form-control" name="gaji" required>
+            <input type="number" class="form-control" name="gaji" value="0">
         </div>
         <button type="submit" class="btn btn-primary">Simpan</button>
     </form>

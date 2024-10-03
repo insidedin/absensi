@@ -9,7 +9,7 @@ class AbsensiController extends Controller
 {
     public function index()
     {
-        $absensi = Absensi::all();
+        $absensi = Absensi::paginate(3);
         return view('absensi.index', compact('absensi'));
     }
 
@@ -22,7 +22,7 @@ class AbsensiController extends Controller
     {
         $request->validate([
             'nama_jabatan' => 'required',
-            'status' => 'required',
+            'status' => 'required|in:Tetap,Kontrak',
             'gaji' => 'required|integer',
         ]);
 
@@ -40,7 +40,7 @@ class AbsensiController extends Controller
     {
         $request->validate([
             'nama_jabatan' => 'required',
-            'status' => 'required',
+            'status' => 'required|in:Tetap,Kontrak',
             'gaji' => 'required|integer',
         ]);
 

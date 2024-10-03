@@ -20,4 +20,19 @@
     padding: 10px 20px;
 }
 
+#about-section{
+    margin-bottom: 80px;
+}
+
+i.fas, i.bi {
+    font-size: 15px;
+}
+
+i.fas.fa-edit {
+    color: #ffc107;
+}
+
+i.fas.fa-trash {
+    color: #dc3545;
+}
 

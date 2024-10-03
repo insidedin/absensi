@@ -10,7 +10,7 @@
                 <div class="col-md-6">
                     <h1 class="welcome-text">Selamat Datang di Aplikasi Digital Absensi Karyawan</h1>
                     <p>Aplikasi ini dirancang untuk memudahkan pencatatan dan pemantauan kehadiran karyawan secara digital. Dengan fitur-fitur canggih yang mempermudah proses absensi, Anda dapat mengelola data kehadiran dengan lebih efisien.</p>
-                    <a href="#about-section" class="btn btn-primary learn-more-btn">Selanjutnya &raquo;</a>
+                    <a href="#about-section" class="btn btn-primary learn-more-btn">Selengkapnya &raquo;</a>
                 </div>
                 <div class="col-md-6">
                     <img src="{{ asset('images/welcome-image.png') }}" alt="Welcome Image">
@@ -60,6 +60,38 @@
                         <div class="card-body">
                             <h5 class="card-title">Tampilan Responsif</h5>
                             <p class="card-text">Akses aplikasi dari berbagai perangkat seperti komputer, tablet, maupun smartphone dengan tampilan yang responsif.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tutor-absensi">
+        <div class="container">
+            <div class="col-md-12">
+                <h2 class="section-title">Tutorial Pemakaian Aplikasi Digital Absensi</h2>
+                    <p>Berikut merupakan Tata Cara Absensi :
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h6 class="card-title">1. Buka Aplikasi Digital Absensi melalui Web Browser</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h6 class="card-title">2. Login pada Aplikasi Digital Absensi dengan Username & Password</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h6 class="card-title">3. Pilih Menu Absensi dan Isi Form Absensi</h6>
                         </div>
                     </div>
                 </div>

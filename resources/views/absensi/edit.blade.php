@@ -12,7 +12,10 @@
         </div>
         <div class="form-group">
             <label for="status">Status</label>
-            <input type="text" class="form-control" name="status" value="{{ $absensi->status }}" required>
+            <select class="form-select" name="status" id="status">
+                <option value="Tetap" {{ $absensi->status == 'Tetap' ? 'selected' : '' }}>Tetap</option>
+                <option value="Kontrak" {{ $absensi->status == 'Kontrak' ? 'selected' : '' }}>Kontrak</option>
+            </select>
         </div>
         <div class="form-group">
             <label for="gaji">Gaji</label>
